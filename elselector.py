@@ -53,7 +53,7 @@ def draw_and_save_image(x_min, x_max, y_min, y_max, lines, filename='parallel_li
 
 # Example usage
 x_min, x_max, y_min, y_max = -10, 10, -10, 10
-m = 0.5  # slope
+m = 0.50  # slope
 h = 1    # line interdistance
 
 lines = generate_parallel_lines(x_min, x_max, y_min, y_max, m, h)
